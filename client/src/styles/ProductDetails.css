@@ -1,0 +1,130 @@
+.product-details {
+    margin-top: 100px !important;
+  }
+  
+  .product-details-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .product-details-info h6 {
+    margin-bottom: 20px !important;
+  }
+  
+  .similar-products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+  }
+  
+  .similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .similar-products .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .similar-products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .similar-products .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .similar-products .card-img-top {
+    height: 300px !important;
+  }
+  
+
+
+  /* ProductDetails.css */
+
+.comment-section {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 50%;
+  height: 60px;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  width: 10%;
+  height: 10%;
+}
+
+.comment-box {
+  border:1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.user-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.user-heading {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-left: 30px; /* Adjust the margin based on your design */
+}
+
+
+/* Additional styling for comments display if needed */
+/* .comments-container {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 12px;
+}
+
+.comment-text {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #888;
+} */
